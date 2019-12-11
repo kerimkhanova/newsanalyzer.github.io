@@ -1,0 +1,32 @@
+@import url('./-title/results__header-title.css');
+@import url('./-analytics/results__header-analytics.css');
+
+.results__header{
+    display: flex;
+    justify-content: space-between;
+    width: 85%;
+    margin: 0 auto;
+    align-items: center;
+    padding-top: 80px;
+    padding-bottom: 64px;
+}
+
+
+@media (max-width: 768px) {
+    .results__header{
+        width: 90%;
+        padding-top: 40px;
+        padding-bottom: 32px;
+    }
+    
+}
+
+@media (max-width: 320px) {
+    .results__header{
+        padding-top: 32px;
+        padding-bottom: 36px;
+        flex-direction: column;
+        align-items: flex-start;
+    }
+    
+}

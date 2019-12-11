@@ -1,0 +1,33 @@
+@import url('./_hide/results__more_hide.css');
+
+.results__more{
+background: #FFFFFF;
+border-radius: 80px;
+width: 288px;
+height: 64px;
+
+font-family: Roboto;
+font-style: normal;
+font-weight: 500;
+font-size: 18px;
+line-height: 24px;
+
+margin: 48px 40% 80px 40%;
+color: #1A1B22;
+cursor: pointer;
+}
+
+@media (max-width: 768px) {
+    .results__more{
+        width: 240px;
+        height: 56px;
+        margin: 18px 35% 40px 35%;
+        } 
+}
+
+@media (max-width: 320px) {
+    .results__more{
+        margin: 5px 16px 45px 16px;
+        width: 288px;
+        } 
+}

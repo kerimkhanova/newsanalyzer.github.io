@@ -1,0 +1,7 @@
+@import url('./table__date/table__date.css');
+@import url('./table__number/table__number.css');
+
+.analytics-result__table{
+    display: flex;
+    border-bottom: 1px solid #1A1B22;
+}

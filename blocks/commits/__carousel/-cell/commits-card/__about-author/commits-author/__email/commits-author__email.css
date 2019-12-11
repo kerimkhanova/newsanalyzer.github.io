@@ -1,0 +1,17 @@
+.commits-author__email{
+font-family: Roboto;
+font-style: normal;
+font-weight: normal;
+font-size: 14px;
+line-height: 22px;
+
+color: #1A1B22;
+}
+
+
+@media (max-width: 320px) {
+    .commits-author__email{
+        margin: 0;
+        }
+    
+}

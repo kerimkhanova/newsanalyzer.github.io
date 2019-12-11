@@ -1,0 +1,22 @@
+@import url('./__name/tech__name.css');
+@import url('./__img/tech__img.css');
+
+.tech{
+    display: flex;
+    flex-direction: column;
+    margin-left: 70px;
+}
+
+@media (max-width: 768px) {
+    .tech{
+        margin: 0;
+    }
+        
+}
+
+@media (max-width: 320px) {
+    .tech{
+        margin: 0 0 40px 0;
+    }
+        
+}

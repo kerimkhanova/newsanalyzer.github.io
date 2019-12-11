@@ -1,0 +1,15 @@
+@import url('../vendor/fonts.css');
+@import url('../blocks/about-author/about-author.css');
+@import url('../blocks/footer/footer.css');
+@import url('../blocks/clients-info/clients-info.css');
+@import url('../blocks/use-technology/use-technology.css');
+@import url('../blocks/header/header.css');
+@import url('../vendor/flickity.css');
+@import url('../blocks/commits/commits.css');
+@import url('../blocks/footer/footer.css');
+
+body {
+    background-color: #fff;
+    max-width: 1440px;
+    margin: 0 auto;
+  }

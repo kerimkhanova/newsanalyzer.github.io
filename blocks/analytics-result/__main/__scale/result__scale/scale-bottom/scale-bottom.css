@@ -1,0 +1,29 @@
+.scale-bottom{
+    display: flex;
+    justify-content: space-between;
+    font-family: Roboto;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 12px;
+    line-height: 16px;
+    text-align: center;
+    letter-spacing: 0.4px;
+    text-transform: uppercase;
+    color: #B6BCBF;
+    margin-top: -4%;
+    margin-left: .5%;
+}
+
+@media (max-width: 768px) {
+    .scale-bottom{
+        margin-top: -8%;
+        margin-left: 0;
+    }
+    
+}
+
+@media (max-width: 320px) {
+    .scale-bottom{
+        display: none;
+    }
+}

@@ -1,0 +1,11 @@
+@import url('../vendor/fonts.css');
+@import url('../blocks/header/header.css');
+@import url('../blocks/analytics-main/analytics-main.css');
+@import url('../blocks/analytics-result/analytics-result.css');
+@import url('../blocks/footer/footer.css');
+
+body {
+    background-color: #fff;
+    max-width: 1440px;
+    margin: 0 auto;
+  }

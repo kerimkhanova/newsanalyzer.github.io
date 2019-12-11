@@ -1,0 +1,20 @@
+@import url('./_grey/analytics-main__title_grey.css');
+
+.analytics-main__title{
+font-family: Roboto;
+font-style: normal;
+font-weight: normal;
+font-size: 18px;
+line-height: 24px;
+
+color: #1A1B22;
+
+margin: 0;
+text-decoration: none;
+}
+
+@media (max-width: 320px) {
+    .analytics-main__title{
+        display: none;
+        }
+}

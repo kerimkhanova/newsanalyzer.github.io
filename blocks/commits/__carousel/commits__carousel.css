@@ -1,0 +1,6 @@
+@import url('./-cell/commits__carousel-cell.css');
+
+.commits__carousel{
+    background: #F5F6F7;
+    margin: 0 auto;
+}

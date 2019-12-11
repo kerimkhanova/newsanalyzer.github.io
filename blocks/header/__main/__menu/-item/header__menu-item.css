@@ -1,0 +1,102 @@
+.header__menu-item{
+font-family: Roboto;
+font-style: normal;
+font-weight: 500;
+font-size: 18px;
+line-height: 24px;
+
+display: flex;
+align-items: center;
+text-align: center;
+
+color: #B6BCBF;
+
+text-decoration: none;
+margin-left: 34px;
+}
+
+.header__menu-item_about{
+font-family: Roboto;
+font-style: normal;
+font-weight: 500;
+font-size: 18px;
+line-height: 24px;
+
+display: flex;
+align-items: center;
+text-align: center;
+
+color: #1A1B22;
+
+border-bottom: 2px #000 solid;
+padding-bottom: 23px;
+text-decoration: none;
+margin-left: 34px;
+}
+
+.header__menu-item_analyzer{
+    font-family: Roboto;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 18px;
+    line-height: 24px;
+    
+    display: flex;
+    align-items: center;
+    text-align: center;
+    
+    color: #B6BCBF;
+    
+    padding-bottom: 23px;
+    text-decoration: none;
+    margin-left: 34px;
+    }
+
+    .header__menu-item_analyzer:hover{
+        font-family: Roboto;
+        font-style: normal;
+        font-weight: 500;
+        font-size: 18px;
+        line-height: 24px;
+        
+        display: flex;
+        align-items: center;
+        text-align: center;
+        
+        color: #000000;
+        
+        padding-bottom: 23px;
+        text-decoration: none;
+        margin-left: 34px;
+        }
+
+        @media (max-width: 768px) {
+            .header__menu-item_about{
+                padding-bottom: 18px;
+                }
+        }
+        @media (max-width: 320px) {
+            .header__menu-item{
+                margin-left: 11px;
+                font-size: 16px;
+                line-height: 24px;
+                }
+            .header__menu-item_about{
+                padding-bottom: 14px;
+                font-size: 16px;
+                line-height: 24px;
+                margin-left: 11px;
+                }
+            .header__menu-item_analyzer{
+                margin-left: 11px;
+                font-size: 16px;
+                line-height: 24px;
+                padding-bottom: 16px;
+                }
+            .header__menu-item_analyzer:hover{
+                margin-left: 11px;
+                font-size: 16px;
+                line-height: 24px;
+                padding-bottom: 16px;
+                }    
+        }

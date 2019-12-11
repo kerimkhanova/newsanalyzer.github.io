@@ -1,0 +1,19 @@
+.analytics-result__title{
+font-family: Roboto Slab;
+font-style: normal;
+font-weight: normal;
+font-size: 26px;
+line-height: 30px;
+
+color: #1A1B22;
+
+margin: 0 0 48px 0;
+}
+
+@media (max-width: 320px) {
+    .analytics-result__title{
+        margin: 0 0 16px 0;
+        font-size: 22px;
+        line-height: 30px;
+        }
+}

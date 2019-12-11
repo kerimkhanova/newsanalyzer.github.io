@@ -1,0 +1,19 @@
+@import url('./scale/scale.css');
+@import url('./scale-bottom/scale-bottom.css');
+
+.result__scale{
+    margin-left: 1%;
+    width: 100%;
+}
+
+@media (max-width: 768px) {
+    .result__scale{
+        margin-left: 9%;
+    }
+}
+
+@media (max-width: 320px) {
+    .result__scale{
+        margin-top: 6%;
+    }
+}

@@ -1,0 +1,15 @@
+@import url('./__menu/header__menu.css');
+@import url('./__name/header__name.css');
+
+.header__main{
+    width: 86%;
+    display: flex;
+    justify-content: space-between;
+    margin: 0 auto;
+}
+
+@media (max-width: 768px) {
+    .header__main{
+        width: 89%;
+    }
+}
