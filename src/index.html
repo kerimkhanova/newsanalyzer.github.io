@@ -5,9 +5,12 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <meta name="author" content="Керимханова Эмма">
+    <meta name="description"
+        content="Сервис для анализа происходящих в мире событий. Его задача — установить, насколько популярны новости на определённую тему.">
     <title>News Analyzer</title>
-    <link rel="shortcut icon" href="./images/favicon.png" type="image/png">
-    <link rel="stylesheet" href="./style/style.css">
+    <link rel="icon" href="<%=require('./images/favicon.png')%>" type="image/png">
+    <link rel="stylesheet" href="<%=htmlWebpackPlugin.files.chunks.main.css %>">
 </head>
 
 <body>
@@ -41,7 +44,7 @@
             <span class="preloader__text">Идет поиск новостей...</span>
         </section>
         <section class="not-found">
-            <img class="not-found__image" src="./images/not-found_v1.svg">
+            <img class="not-found__image" src="<%=require('./images/not-found_v1.svg')%>" alt="Not-found image">
             <p class="not-found__text-main">Ничего не найдено</p>
             <span class="not-found__text">К сожалению по вашему запросу
                 ничего не найдено.</span>
@@ -53,8 +56,8 @@
             </div>
             <div class="results__cards">
                 <a href="#" class="card">
-                    <div class="card__image" style="background-image: url(./images/image_01.png)"></div>
-                    <time class="card__date">2 августа, 2019</time>
+                    <div class="card__image" style="background-image: url(<%=require('./images/image_01.png')%>)"></div>
+                    <span class="card__date">2 августа, 2019</span>
                     <h4 class="card__title">Национальное достояние – парки</h4>
                     <p class="card__text">В 2016 году Америка отмечала важный юбилей: сто лет назад здесь начала
                         складываться система национальных парков – охраняемых территорий, где и сегодня каждый может
@@ -62,9 +65,9 @@
                     <p class="card__source">Лента.ру</p>
                 </a>
                 <a href="#" class="card">
-                    <div class="card__image" style="background-image: url(./images/image_02.png)">
+                    <div class="card__image" style="background-image: url(<%=require('./images/image_02.png')%>)">
                     </div>
-                    <time class="card__date">2 августа, 2019</time>
+                    <span class="card__date">2 августа, 2019</span>
                     <h4 class="card__title">Лесные огоньки: история одной фотографии</h4>
                     <p class="card__text">Фотограф отвлеклась от освещения суровой политической реальности Мексики,
                         чтобы
@@ -74,15 +77,15 @@
                 </a>
                 <!-- <a href="#" class="card">
                     <div class="card__image" style="background-image: url(../images/image_03.png)"></div>
-                    <time class="card__date">2 августа, 2019</time>
+                    <span class="card__date">2 августа, 2019</span>
                     <h4 class="card__title">«Первозданная тайга»: новый фотопроект Игоря Шпиленка</h4>
                     <p class="card__text">Знаменитый фотограф снимает первозданные леса России, чтобы рассказать о
                         необходимости их сохранения. В этот раз он отправился в Двинско-Пинежскую тайгу, где...</p>
                     <p class="card__source">Риа</p>
                 </a>-->
                 <a href="#" class="card">
-                    <div class="card__image" style="background-image: url(./images/image_04.png)"></div>
-                    <time class="card__date">2 августа, 2019</time>
+                    <div class="card__image" style="background-image: url(<%=require('./images/image_04.png')%>)"></div>
+                    <span class="card__date">2 августа, 2019</span>
                     <h4 class="card__title">Национальное достояние –&nbsp;парки</h4>
                     <p class="card__text">В 2016 году Америка отмечала важный юбилей: сто лет назад здесь начала
                         складываться система национальных парков – охраняемых территорий, где и сегодня каждый может
@@ -91,7 +94,7 @@
                 </a>
                 <!-- <a href="#" class="card">
                     <div class="card__image" style="background-image: url(../images/image_05.png)"></div>
-                    <time class="card__date">2 августа, 2019</time>
+                    <span class="card__date">2 августа, 2019</span>
                     <h4 class="card__title">Лесные огоньки: история одной фотографии</h4>
                     <p class="card__text">Фотограф отвлеклась от освещения суровой политической реальности Мексики,
                         чтобы
@@ -101,7 +104,7 @@
                 </a>
                 <a href="#" class="card">
                     <div class="card__image" style="background-image: url(../images/image_06.png)"></div>
-                    <time class="card__date">2 августа, 2019</time>
+                    <span class="card__date">2 августа, 2019</span>
                     <h4 class="card__title">«Первозданная тайга»: новый фотопроект Игоря Шпиленка</h4>
                     <p class="card__text">Знаменитый фотограф снимает первозданные леса России, чтобы рассказать о
                         необходимости их сохранения. В этот раз он отправился в Двинско-Пинежскую тайгу, где...</p>
@@ -111,7 +114,7 @@
             <button class="results__more">Показать еще</button>
         </section>
         <section class="about-author">
-            <img src="./images/image-03ddx.png" class="avatar" alt="Image">
+            <img src="<%=require('./images/image-03ddx.png')%>" class="avatar" alt="Image">
             <div class="profile">
                 <p class="profile__title">Об авторе</p>
                 <p class="profile__subtitle">Это блок с описанием автора проекта. Здесь следует указать, как вас зовут,
@@ -131,11 +134,14 @@
             <a href="https://praktikum.yandex.ru" class="footer__menu-item">Яндекс.Практикум</a>
         </nav>
         <nav class="footer__icon">
-            <a href="#" class="footer__icon-item"><img src="./images/GitHubIcon.svg" alt="GitHub"></a>
+            <a href="https://github.com/kerimkhanova/newsanalyzer.github.io" class="footer__icon-item"><img
+                    src="<%=require('./images/GitHubIcon.svg')%>" alt="GitHub"></a>
             <a href="https://www.facebook.com/platinum.person" class="footer__icon-item"><img
-                    src="./images/FacebookIcon.svg" alt="Facebook"></a>
+                    src="<%=require('./images/FacebookIcon.svg')%>" alt="Facebook"></a>
         </nav>
     </footer>
+
+    <script type='module' src="<%= htmlWebpackPlugin.files.chunks.main.entry %>"></script>
 
 </body>
 
