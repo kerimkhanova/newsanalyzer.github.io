@@ -1,0 +1,17 @@
+.header_index{
+    padding-top: 30px;
+    background: rgba(194, 129, 129, 0.01);
+    box-shadow: inset 0px -1px 0px rgba(255, 255, 255, 0.2);
+}
+
+@media (max-width: 768px) {
+    .header_index{
+        padding-top: 22px;
+    }
+}
+
+@media (max-width: 414px) {
+    .header_index{
+        padding-top: 16px;
+    }
+}

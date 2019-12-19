@@ -1,0 +1,27 @@
+.analytics-result__table-number{
+    font-family: Roboto;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 12px;
+    line-height: 16px;
+    
+    
+    letter-spacing: 0.4px;
+    text-transform: uppercase;
+    
+    color: #B6BCBF;
+    margin: 0;
+    }
+    
+    @media (max-width: 768px) {
+        .analytics-result__table-number{
+            margin: 0 0 0 35px;
+            }
+    }
+    
+    
+    @media (max-width: 450px) {
+        .analytics-result__table-number{
+            margin: 0 0 0 15px;
+            }
+    }

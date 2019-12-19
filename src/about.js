@@ -6,7 +6,7 @@ function sliderInitialization() {
         freeScroll: true,
         wrapAround: true,
         initialIndex: 0,
-        groupCells: true
+        groupCells: true,
     });
 }
 sliderInitialization();

@@ -1,0 +1,11 @@
+.commits-card__commits-author{
+    display: flex;
+    flex-direction: column;
+    margin-left: 16px;
+}
+
+@media (max-width: 768px) {
+    .commits-card__commits-author{
+        margin-left: 12px;
+    }
+}

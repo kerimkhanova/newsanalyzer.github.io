@@ -1,5 +1,7 @@
-@import url('../about-author/avatar/avatar.css');
-@import url('../about-author/profile/profile.css');
+@import url('./__avatar/about-author__avatar.css');
+@import url('./__profile/about-author__profile.css');
+@import url('./__profile-title/about-author__profile-title.css');
+@import url('./__profile-subtitle/about-author__profile-subtitle.css');
 
 .about-author{
     width: 85%;
@@ -13,7 +15,7 @@
     }
 }
 
-@media (max-width: 320px) {
+@media (max-width: 450px) {
     .about-author{
         flex-direction: column;
         margin-bottom: 32px;

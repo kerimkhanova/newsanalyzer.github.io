@@ -1,4 +1,4 @@
-@import url('./card/card.css');
+@import url('../../card/card.css');
 
 .results__cards{
     width: 86%;
@@ -6,6 +6,18 @@
     display: flex;
     flex-wrap: wrap;
     justify-content: space-between;
+}
+
+@media (max-width: 1395px) {
+    .results__cards{
+        width: 90%;
+    }
+}
+
+@media (max-width: 1333px) {
+    .results__cards{
+        width: 95%;
+    }
 }
 
 @media (max-width: 768px) {

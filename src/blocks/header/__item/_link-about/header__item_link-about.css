@@ -1,0 +1,11 @@
+.header__item_link-about{
+color: #B6BCBF;
+
+margin-left: 34px;
+}
+
+@media (max-width: 414px) {
+    .header__item_link-about{
+        margin-left: 11px;
+        } 
+}

@@ -1,7 +1,0 @@
-@import url('./result__date/result__date.css');
-@import url('./result__scale/result__scale.css');
-@import url('./result__graph/result__graph.css');
-
-.analytics-result__scale{
-    display: flex;
-}

@@ -1,0 +1,13 @@
+.commits-card__commits-image{
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 64px;
+    width: 64px;
+}
+
+@media (max-width: 768px) {
+    .commits-card__commits-image{
+        height: 48px;
+        width: 48px;
+    }
+}

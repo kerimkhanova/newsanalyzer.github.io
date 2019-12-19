@@ -1,7 +1,9 @@
 @import url('./__header/commits__header.css');
-@import url('./__carousel/commits__carousel.css');
 @import url('./__button/commits__button.css');
-
+@import url('./__carousel-cell/commits__carousel-cell.css');
+@import url('./__carousel/commits__carousel.css');
+@import url('./__link/commits__link.css');
+@import url('./__title/commits__title.css');
 .commits{
     min-height: 610px;
     background: #F5F6F7;

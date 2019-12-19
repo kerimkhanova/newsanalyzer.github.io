@@ -1,0 +1,23 @@
+.analytics-result__scale-date{
+    margin-top: 1%;
+    width: 8%;
+}
+
+@media (max-width: 768px) {
+    .analytics-result__scale-date{
+        margin-top: 3%;
+        width: 10%;
+    }
+}
+
+@media (max-width: 670px) {
+    .analytics-result__scale-date{
+        width: 13%;
+    }
+}
+@media (max-width: 450px) {
+    .analytics-result__scale-date{
+        margin-top: -10px;
+        width: 26%;
+    }
+}

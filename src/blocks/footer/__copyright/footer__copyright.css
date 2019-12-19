@@ -10,7 +10,7 @@ color: #B6BCBF;
 margin: 0;
 }
 
-@media (max-width: 320px) {
+@media (max-width: 450px) {
     .footer__copyright{
         order: 3;
         margin-top: 40px;

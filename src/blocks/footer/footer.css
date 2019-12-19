@@ -20,7 +20,7 @@
         
 }
 
-@media (max-width: 320px) {
+@media (max-width: 450px) {
     .footer{
         padding-bottom: 22px;
         flex-wrap: wrap;

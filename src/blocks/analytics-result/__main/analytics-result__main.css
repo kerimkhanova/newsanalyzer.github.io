@@ -1,7 +1,3 @@
-@import url('./__title/analytics-result__title.css');
-@import url('./__table/analytics-result__table.css');
-@import url('./__scale/analytics-result__scale.css');
-
 .analytics-result__main{
     width: 86%;
     margin: 0 auto;
@@ -18,7 +14,7 @@
 }
 
 
-@media (max-width: 320px) {
+@media (max-width: 450px) {
     .analytics-result__main{
         padding: 24px 0 6px;
     }

@@ -15,12 +15,12 @@
 
 <body>
 
-    <header class="header_about">
+    <header class="header header_about">
         <div class="header__main">
-            <a href="./index.html" class="header__name_about">NewsAnalyzer</a>
+            <a href="./index.html" class="header__name header__name_black">NewsAnalyzer</a>
             <nav class="header__menu">
-                <a href="./index.html" class="header__menu-current_about">Главная</a>
-                <a href="./about.html" class="header__menu-item_about">О проекте</a>
+                <a href="./index.html" class="header__item header__item_link-main">Главная</a>
+                <a href="./about.html" class="header__item header__item_current-about">О проекте</a>
             </nav>
         </div>
     </header>
@@ -76,16 +76,15 @@
             </div>
         </section>
         <section class="about-author">
-            <img src="<%=require('./images/image-03ddx.png')%>" class="avatar" alt="Image">
-            <div class="profile">
-                <p class="profile__title">Об авторе</p>
-                <p class="profile__subtitle">Это блок с описанием автора проекта. Здесь следует указать, как вас зовут,
+            <img src="<%=require('./images/image-03ddx.png')%>" class="about-author__avatar" alt="Image">
+            <div class="about-author__profile">
+                <p class="about-author__profile-title">Об авторе</p>
+                <p class="about-author__profile-subtitle">Это блок с описанием автора проекта. Здесь следует указать,
+                    как вас зовут,
                     чем
-                    вы занимаетесь, какими технологиями разработки владеете.</p>
-                <p class="profile__subtitle">
+                    вы занимаетесь, какими технологиями разработки владеете.
                     Также можно рассказать о процессе обучения в Практикуме, чему вы тут научились, и чем можете помочь
-                    потенциальным заказчикам. Если хотите, оставьте свои контакты: email и телефон. Так заказчики смогут
-                    с вами связаться.</p>
+                    потенциальным заказчикам.</p>
             </div>
         </section>
         <section class="commits">
@@ -99,12 +98,12 @@
                     <a href="#" class="commits-card">
                         <span class="commits-card__date">14 августа, 2019</span>
                         <div class="commits-card__about-author">
-                            <div class="commits-image"
+                            <div class="commits-card__commits-image"
                                 style="background-image: url(<%=require('./images/AntonDolinin.png')%>)">
                             </div>
-                            <div class="commits-author">
-                                <p class="commits-author__name">Антон Долинин</p>
-                                <p class="commits-author__email">anton@yandex.ru</p>
+                            <div class="commits-card__commits-author">
+                                <p class="commits-card__author-name">Антон Долинин</p>
+                                <p class="commits-card__author-email">anton@yandex.ru</p>
                             </div>
                         </div>
                         <p class="commits-card__text">Emmet (formerly Zen Coding) is a web-developer’s toolkit that can
@@ -115,11 +114,12 @@
                     <a href="#" class="commits-card">
                         <span class="commits-card__date">14 августа, 2019</span>
                         <div class="commits-card__about-author">
-                            <div class="commits-image"
-                                style="background-image: url(<%=require('./images/AntonDolinin.png')%>)"></div>
-                            <div class="commits-author">
-                                <p class="commits-author__name">Антон Долинин</p>
-                                <p class="commits-author__email">anton@yandex.ru</p>
+                            <div class="commits-card__commits-image"
+                                style="background-image: url(<%=require('./images/AntonDolinin.png')%>)">
+                            </div>
+                            <div class="commits-card__commits-author">
+                                <p class="commits-card__author-name">Антон Долинин</p>
+                                <p class="commits-card__author-email">anton@yandex.ru</p>
                             </div>
                         </div>
                         <p class="commits-card__text">Emmet (formerly Zen Coding) is a web-developer’s toolkit that can
@@ -130,11 +130,12 @@
                     <a href="#" class="commits-card">
                         <span class="commits-card__date">14 августа, 2019</span>
                         <div class="commits-card__about-author">
-                            <div class="commits-image"
-                                style="background-image: url(<%=require('./images/AntonDolinin.png')%>)"></div>
-                            <div class="commits-author">
-                                <p class="commits-author__name">Антон Долинин</p>
-                                <p class="commits-author__email">anton@yandex.ru</p>
+                            <div class="commits-card__commits-image"
+                                style="background-image: url(<%=require('./images/AntonDolinin.png')%>)">
+                            </div>
+                            <div class="commits-card__commits-author">
+                                <p class="commits-card__author-name">Антон Долинин</p>
+                                <p class="commits-card__author-email">anton@yandex.ru</p>
                             </div>
                         </div>
                         <p class="commits-card__text">Emmet (formerly Zen Coding) is a web-developer’s toolkit that can
@@ -145,11 +146,12 @@
                     <a href="#" class="commits-card">
                         <span class="commits-card__date">14 августа, 2019</span>
                         <div class="commits-card__about-author">
-                            <div class="commits-image"
-                                style="background-image: url(<%=require('./images/AntonDolinin.png')%>)"></div>
-                            <div class="commits-author">
-                                <p class="commits-author__name">Антон Долинин</p>
-                                <p class="commits-author__email">anton@yandex.ru</p>
+                            <div class="commits-card__commits-image"
+                                style="background-image: url(<%=require('./images/AntonDolinin.png')%>)">
+                            </div>
+                            <div class="commits-card__commits-author">
+                                <p class="commits-card__author-name">Антон Долинин</p>
+                                <p class="commits-card__author-email">anton@yandex.ru</p>
                             </div>
                         </div>
                         <p class="commits-card__text">Emmet (formerly Zen Coding) is a web-developer’s toolkit that can
@@ -160,11 +162,12 @@
                     <a href="#" class="commits-card">
                         <span class="commits-card__date">14 августа, 2019</span>
                         <div class="commits-card__about-author">
-                            <div class="commits-image"
-                                style="background-image: url(<%=require('./images/AntonDolinin.png')%>)"></div>
-                            <div class="commits-author">
-                                <p class="commits-author__name">Антон Долинин</p>
-                                <p class="commits-author__email">anton@yandex.ru</p>
+                            <div class="commits-card__commits-image"
+                                style="background-image: url(<%=require('./images/AntonDolinin.png')%>)">
+                            </div>
+                            <div class="commits-card__commits-author">
+                                <p class="commits-card__author-name">Антон Долинин</p>
+                                <p class="commits-card__author-email">anton@yandex.ru</p>
                             </div>
                         </div>
                         <p class="commits-card__text">Emmet (formerly Zen Coding) is a web-developer’s toolkit that can

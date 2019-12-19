@@ -1,0 +1,11 @@
+.commits-card__about-author{
+    display: flex;
+    margin-top: 16px;
+}
+
+@media (max-width: 320px) {
+    .commits-card__about-author{
+        margin-top: 11px;
+    }
+    
+}

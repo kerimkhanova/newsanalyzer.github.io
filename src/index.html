@@ -15,12 +15,12 @@
 
 <body>
 
-    <header class="header">
+    <header class="header header_index">
         <div class="header__main">
-            <a href="./index.html" class="header__name">NewsAnalyzer</a>
+            <a href="./index.html" class="header__name header__name_white">NewsAnalyzer</a>
             <nav class="header__menu">
-                <a href="./index.html" class="header__menu-current">Главная</a>
-                <a href="./about.html" class="header__menu-item">О проекте</a>
+                <a href="./index.html" class="header__item header__item_current">Главная</a>
+                <a href="./about.html" class="header__item header__item_link-about">О проекте</a>
             </nav>
         </div>
     </header>
@@ -33,14 +33,14 @@
                     новостях
                     за
                     прошедшую неделю.</h3>
-                <form class="search-field">
-                    <input class="text-input" type="text" placeholder="Введите тему новости">
-                    <button class="button">Искать</button>
+                <form class="search__search-field">
+                    <input class="search__text-input" type="text" placeholder="Введите тему новости" required>
+                    <button class="search__button">Искать</button>
                 </form>
             </div>
         </section>
         <section class="preloader">
-            <i class="circle-preloader"></i>
+            <i class="preloader__circle"></i>
             <span class="preloader__text">Идет поиск новостей...</span>
         </section>
         <section class="not-found">
@@ -114,10 +114,11 @@
             <button class="results__more">Показать еще</button>
         </section>
         <section class="about-author">
-            <img src="<%=require('./images/image-03ddx.png')%>" class="avatar" alt="Image">
-            <div class="profile">
-                <p class="profile__title">Об авторе</p>
-                <p class="profile__subtitle">Это блок с описанием автора проекта. Здесь следует указать, как вас зовут,
+            <img src="<%=require('./images/image-03ddx.png')%>" class="about-author__avatar" alt="Image">
+            <div class="about-author__profile">
+                <p class="about-author__profile-title">Об авторе</p>
+                <p class="about-author__profile-subtitle">Это блок с описанием автора проекта. Здесь следует указать,
+                    как вас зовут,
                     чем
                     вы занимаетесь, какими технологиями разработки владеете.
                     Также можно рассказать о процессе обучения в Практикуме, чему вы тут научились, и чем можете помочь

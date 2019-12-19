@@ -1,9 +1,0 @@
-@import url('./__date/commits-card__date.css');
-@import url('./__about-author/commits-card__about-author.css');
-@import url('./__text/commits-card__text.css');
-
-.commits-card{
-    display: flex;
-    flex-direction: column;
-    text-decoration: none;
-}

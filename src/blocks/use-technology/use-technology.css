@@ -1,4 +1,6 @@
 @import url('./__main/use-technology__main.css');
+@import url('./__title/use-technology__title.css');
+@import url('./__items/use-technology__items.css');
 
 .use-technology{
     min-height: 334px;
