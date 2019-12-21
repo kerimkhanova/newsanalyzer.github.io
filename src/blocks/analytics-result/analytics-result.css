@@ -1,0 +1,17 @@
+@import url('./__graph/analytics-result__graph.css');
+@import url('./__graph-number/analytics-result__graph-number.css');
+@import url('./__main/analytics-result__main.css');
+@import url('./__percent/analytics-result__percent.css');
+@import url('./__scale-date-day/analytics-result__scale-date-day.css');
+@import url('./__scale-date/analytics-result__scale-date.css');
+@import url('./__scale/analytics-result__scale.css');
+@import url('./__step-bottom/analytics-result__step-bottom.css');
+@import url('./__step/analytics-result__step.css');
+@import url('./__table-date/analytics-result__table-date.css');
+@import url('./__table-number/analytics-result__table-number.css');
+@import url('./__table/analytics-result__table.css');
+@import url('./__title/analytics-result__title.css');
+
+.analytics-result{
+    background: #F5F6F7;
+}

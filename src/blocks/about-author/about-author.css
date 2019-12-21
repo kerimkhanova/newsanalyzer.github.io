@@ -1,0 +1,23 @@
+@import url('./__avatar/about-author__avatar.css');
+@import url('./__profile/about-author__profile.css');
+@import url('./__profile-title/about-author__profile-title.css');
+@import url('./__profile-subtitle/about-author__profile-subtitle.css');
+
+.about-author{
+    width: 85%;
+    display: flex;
+    margin: 0 auto;
+}
+
+@media (max-width: 768px) {
+    .about-author{
+        width: 90%;
+    }
+}
+
+@media (max-width: 450px) {
+    .about-author{
+        flex-direction: column;
+        margin-bottom: 32px;
+    }
+}

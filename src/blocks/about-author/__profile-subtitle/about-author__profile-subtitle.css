@@ -1,0 +1,24 @@
+.about-author__profile-subtitle{
+    font-family: Roboto;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 18px;
+    line-height: 24px;
+    
+    color: #1A1B22;
+    margin: 24px 0 0 0;
+    }
+    
+    @media (max-width: 768px) {
+        .about-author__profile-subtitle{
+            margin: 10px 0 0 0;
+            }
+            
+    }
+    
+    @media (max-width: 411px) {
+        .about-author__profile-subtitle{
+            margin: 16px 0 0 0;
+            }
+            
+    }

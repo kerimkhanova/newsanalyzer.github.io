@@ -1,0 +1,25 @@
+.analytics-result__table-date{
+    display: flex;
+    flex-direction: column;
+    
+    font-family: Roboto;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 12px;
+    line-height: 16px;
+    
+    letter-spacing: 0.4px;
+    text-transform: uppercase;
+    
+    
+    color: #B6BCBF;
+    
+    margin-right: 4%;
+    margin-bottom: 1%;
+    }
+    
+    @media (max-width: 450px) {
+        .analytics-result__table-date{
+            margin-bottom: 2%;
+            }
+    }

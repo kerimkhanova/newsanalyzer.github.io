@@ -1,0 +1,94 @@
+.search__text-input{
+background: #FFFFFF;
+
+border: 1px solid #D1D2D6;
+box-sizing: border-box;
+box-shadow: 0px 5px 15px rgba(14, 26, 57, 0.2);
+border-radius: 100px;
+
+font-family: Roboto;
+font-style: normal;
+font-weight: normal;
+font-size: 16px;
+line-height: 22px;
+
+color: #B6BCBF;
+
+width: 608px;
+height: 64px;
+
+margin: 64px 0 0 0;
+
+padding-left: 24px;
+}
+
+.search__text-input:hover {
+    font-family: Roboto;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 16px;
+    line-height: 22px;
+    
+    color: #1A1B22;
+      }
+
+.search__text-input_entered{
+font-family: Roboto;
+font-style: normal;
+font-weight: normal;
+font-size: 16px;
+line-height: 22px;
+
+color: #1A1B22;
+}
+
+@media (max-width: 1290px) {
+  .search__text-input{
+    width: 580px;
+    }
+      
+}
+
+
+@media (max-width: 1260px) {
+  .search__text-input{
+    margin: 34px 0 0;
+    width: 550px;
+    }
+      
+}
+@media (max-width: 1000px) {
+  .search__text-input{
+    margin: 24px 0 0;
+    }
+      
+}
+
+@media (max-width: 900px) {
+  .search__text-input{
+    margin: 10px 0 0;
+    }
+      
+}
+@media (max-width: 1170px) {
+  .search__text-input{
+    width: 430px;
+    height: 54px;
+    }
+      
+}
+@media (max-width: 768px) {
+  .search__text-input{
+    width: 448px;
+    margin: 24px 0 0 0;
+    height: 56px;
+    }
+      
+}
+
+@media (max-width: 477px) {
+  .search__text-input{
+    width: 285px;
+    }
+      
+}

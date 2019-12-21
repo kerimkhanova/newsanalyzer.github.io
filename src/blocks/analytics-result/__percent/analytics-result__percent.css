@@ -1,0 +1,16 @@
+.analytics-result__percent{
+    margin-left: 1%;
+    width: 100%;
+}
+
+@media (max-width: 768px) {
+    .analytics-result__percent{
+        margin-left: 9%;
+    }
+}
+
+@media (max-width: 450px) {
+    .analytics-result__percent{
+        margin-top: 6%;
+    }
+}

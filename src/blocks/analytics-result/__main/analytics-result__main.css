@@ -1,0 +1,21 @@
+.analytics-result__main{
+    width: 86%;
+    margin: 0 auto;
+    padding: 80px 0 80px;
+}
+
+
+@media (max-width: 768px) {
+    .analytics-result__main{
+        padding: 40px 0 45px;
+        width: 90%;
+    }
+    
+}
+
+
+@media (max-width: 450px) {
+    .analytics-result__main{
+        padding: 24px 0 6px;
+    }
+}

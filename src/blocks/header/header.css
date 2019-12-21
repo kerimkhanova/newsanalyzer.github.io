@@ -1,0 +1,14 @@
+@import url('./__main/header__main.css');
+@import url('./_about/header_about.css');
+@import url('./__name/header__name.css');
+@import url('./__menu/header__menu.css');
+@import url('./__item/header__item.css');
+@import url('./_index/header_index.css');
+
+.header{
+    width: 100%;
+    position: absolute;
+    z-index: 1;
+    max-width: 1440px;
+}
+

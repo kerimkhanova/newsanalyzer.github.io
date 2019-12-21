@@ -1,0 +1,35 @@
+.use-technology__main{
+    width: 77%;
+    display: flex;
+    padding-top: 80px;
+    padding-left: 100px;
+    align-items: baseline;
+}
+
+@media (max-width: 1080px) {
+    .use-technology__main{
+        padding-left: 50px;
+    }
+}
+
+@media (max-width: 850px) {
+    .use-technology__main{
+        padding-left: 30px;
+    }
+}
+
+@media (max-width: 830px) {
+    .use-technology__main{
+        padding-top: 40px;
+        padding-left: 40px;
+        flex-direction: column;
+    }
+}
+
+@media (max-width: 450px) {
+    .use-technology__main{
+        width: 90%;
+        padding: 40px 0 0;
+        margin: 0 auto;
+    }
+}

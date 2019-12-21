@@ -1,0 +1,111 @@
+<!DOCTYPE html>
+<html lang="ru">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <meta name="author" content="Керимханова Эмма">
+    <meta name="description" content="Страница с аналитикой. На ней отображается диаграмма популярности новостей.">
+    <title>Аналитика</title>
+    <link rel="icon" href="<%=require('./images/favicon.png')%>" type="image/png">
+    <link rel="stylesheet" href="<%=htmlWebpackPlugin.files.chunks.analyzer.css %>">
+</head>
+
+<body>
+
+    <header class="header header_about">
+        <div class="header__main">
+            <a href="./index.html" class="header__name header__name_black">NewsAnalyzer</a>
+            <nav class="header__menu">
+                <a href="./index.html" class="header__item header__item_link-main">Главная</a>
+                <a href="./about.html" class="header__item header__item_link-analyzer">О проекте</a>
+            </nav>
+        </div>
+    </header>
+
+    <main>
+        <section class="analytics-main">
+            <a href="./index.html" class="analytics-main__title analytics-main__title_black">Главная</a><span
+                class="analytics-main__title analytics-main__title_grey"> /
+                Аналитика</span>
+            <h2 class="analytics-main__subtitle">Вы спросили: <span
+                    class="analytics-main__subtitle analytics-main__subtitle_result">«Путешествия»</span></h2>
+            <p class="analytics-main__summary">Новостей за неделю: <span class="analytics-main__number">34 324</span>
+            </p>
+            <p class="analytics-main__summary">Упоминаний в загаловках: <span class="analytics-main__number">235</span>
+            </p>
+        </section>
+        <section class="analytics-result">
+            <div class="analytics-result__main">
+                <h2 class="analytics-result__title">Аналитика по дням</h2>
+                <div class="analytics-result__table">
+                    <div class="analytics-result__table-date">Дата<span
+                            class="analytics-result__table-month">(Август)</span></div>
+                    <p class="analytics-result__table-number">Кол-во упоминаний</p>
+                </div>
+                <div class="analytics-result__scale">
+                    <div class="analytics-result__scale-date">
+                        <p class="analytics-result__scale-date-day">19, пн</p>
+                        <p class="analytics-result__scale-date-day">20, вт</p>
+                        <p class="analytics-result__scale-date-day">21, ср</p>
+                        <p class="analytics-result__scale-date-day">22, чт</p>
+                        <p class="analytics-result__scale-date-day">23, пт</p>
+                        <p class="analytics-result__scale-date-day">24, сб</p>
+                        <p class="analytics-result__scale-date-day">25, вс</p>
+                    </div>
+                    <div class="analytics-result__percent">
+                        <div class="analytics-result__step">
+                            <span>0</span>
+                            <span>25</span>
+                            <span>50</span>
+                            <span>75</span>
+                            <span>100</span>
+                        </div>
+                        <div class="analytics-result__graph" style="width: 15%"><span
+                                class="analytics-result__graph-number">15</span></div>
+                        <div class="analytics-result__graph" style="width: 18%"><span
+                                class="analytics-result__graph-number">18</span></div>
+                        <div class="analytics-result__graph" style="width: 11%"><span
+                                class="analytics-result__graph-number">11</span></div>
+                        <div class="analytics-result__graph" style="width: 39%"><span
+                                class="analytics-result__graph-number">39</span></div>
+                        <div class="analytics-result__graph" style="width: 45%"><span
+                                class="analytics-result__graph-number">45</span></div>
+                        <div class="analytics-result__graph" style="width: 73%"><span
+                                class="analytics-result__graph-number">73</span></div>
+                        <div class="analytics-result__graph" style="width: 34%"><span
+                                class="analytics-result__graph-number">34</span></div>
+                        <div class="analytics-result__step-bottom">
+                            <span>0</span>
+                            <span>25</span>
+                            <span>50</span>
+                            <span>75</span>
+                            <span>100</span>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+    </main>
+
+    <footer class="footer">
+        <p class="footer__copyright">© 2019 Supersite</p>
+        <nav class="footer__menu">
+            <a href="./index.html" class="footer__menu-item">Главная</a>
+            <a href="./about.html" class="footer__menu-item">О проекте</a>
+            <a href="https://praktikum.yandex.ru" class="footer__menu-item">Яндекс.Практикум</a>
+        </nav>
+        <nav class="footer__icon">
+            <a href="https://github.com/kerimkhanova/newsanalyzer.github.io" class="footer__icon-item"><img
+                    src="<%=require('./images/GitHubIcon.svg')%>" alt="GitHub"></a>
+            <a href="https://www.facebook.com/platinum.person" class="footer__icon-item"><img
+                    src="<%=require('./images/FacebookIcon.svg')%>" alt="Facebook"></a>
+        </nav>
+    </footer>
+
+    <script type='module' src="<%= htmlWebpackPlugin.files.chunks.analyzer.entry %>"></script>
+
+</body>
+
+</html>

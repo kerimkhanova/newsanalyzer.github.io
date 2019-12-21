@@ -1,0 +1,18 @@
+.search__main{
+    display: flex;
+    flex-direction: column;
+    width: 42%;
+    margin: 0 auto;
+}
+
+@media (max-width: 768px) {
+    .search__main{
+        width: 58%;
+    }
+}
+
+@media (max-width: 477px) {
+    .search__main{
+        width: 88%;
+    }
+}

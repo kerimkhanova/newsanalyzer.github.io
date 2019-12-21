@@ -1,0 +1,13 @@
+@import url('./__about-author/commits-card__about-author.css');
+@import url('./__author-email/commits-card__author-email.css');
+@import url('./__author-name/commits-card__author-name.css');
+@import url('./__commits-author/commits-card__commits-author.css');
+@import url('./__commits-image/commits-card__commits-image.css');
+@import url('./__date/commits-card__date.css');
+@import url('./__text/commits-card__text.css');
+
+.commits-card{
+    display: flex;
+    flex-direction: column;
+    text-decoration: none;
+}

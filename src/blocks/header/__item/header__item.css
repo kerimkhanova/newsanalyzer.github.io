@@ -1,0 +1,28 @@
+@import url('./_link-about/header__item_link-about.css');
+@import url('./_current/header__item_current.css');
+@import url('./_link-main/header__item_link-main.css');
+@import url('./_current-about/header__item_current-about.css');
+@import url('./_link-analyzer/header__item_link-analyzer.css');
+
+.header__item{
+text-decoration: none;
+font-family: Roboto;
+font-style: normal;
+font-weight: bold;
+font-size: 18px;
+line-height: 24px;
+}
+
+@media (max-width: 768px) {
+    .header__item{
+        padding-bottom: 18px;
+        }
+}
+
+@media (max-width: 414px) {
+    .header__item{
+        padding-bottom: 14px;
+        font-size: 16px;
+        line-height: 24px;
+        }
+}

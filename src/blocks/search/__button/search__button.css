@@ -1,0 +1,90 @@
+.search__button{
+background: #2F71E5;
+box-shadow: 0px 5px 15px rgba(14, 26, 57, 0.2);
+border-radius: 100px;
+border-color: #2F71E5;
+
+font-family: Roboto;
+font-style: normal;
+font-weight: 500;
+font-size: 18px;
+line-height: 24px;
+
+color: #FFFFFF;
+
+margin: 64px 0 0 -156px;
+
+width: 168px;
+
+text-align: center;
+z-index: 1;
+}
+
+.search__button:hover {
+background: #347EFF;
+box-shadow: 0px 5px 15px rgba(14, 26, 57, 0.2);
+border-radius: 100px;
+cursor: pointer;
+  }
+ 
+.search__button_entered{
+background: #2A65CC;
+box-shadow: 0px 5px 15px rgba(14, 26, 57, 0.2);
+border-radius: 100px;
+
+font-family: Roboto;
+font-style: normal;
+font-weight: 500;
+font-size: 18px;
+line-height: 24px;
+
+color: #FFFFFF;
+
+margin: 64px 0 0 -156px;
+
+width: 168px;
+
+text-align: center;
+z-index: 1;
+}  
+
+@media (max-width: 1260px) {
+  .search__button{
+    margin: 34px 0 0 -156px;
+    }
+}
+@media (max-width: 1000px) {
+  .search__button{
+    margin: 24px 0 0 -156px;
+    }
+}
+
+@media (max-width: 900px) {
+  .search__button{
+    margin: 10px 0 0 -140px;
+    }
+}
+@media (max-width: 1170px) {
+  .search__button{
+    width: 160px;
+    }
+}
+
+@media (max-width: 768px) {
+  .search__button{
+    margin: 24px 0 0 -130px;
+    width: 165px;
+    }
+}
+@media (max-width: 500px) {
+  .search__button{
+    margin: 24px 0 0 -100px;
+    }
+}
+@media (max-width: 477px) {
+  .search__button{
+    margin: 16px 0 0 0;
+    width: 285px;
+    height: 56px;
+    }
+}

@@ -1,0 +1,23 @@
+@import url('./__number/analytics-main__number.css');
+@import url('./__subtitle/analytics-main__subtitle.css');
+@import url('./__summary/analytics-main__summary.css');
+@import url('./__title/analytics-main__title.css');
+
+.analytics-main{
+    width: 86%;
+    margin: 0 auto;
+    padding: 120px 0 80px;
+}
+
+@media (max-width: 768px) {
+    .analytics-main{
+        width: 90%;
+        padding: 96px 0 40px;
+    }
+}
+
+@media (max-width: 320px) {
+    .analytics-main{
+        padding: 85px 0 23px;
+    }
+}

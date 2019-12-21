@@ -1,0 +1,13 @@
+.header__item_current-about{
+    color: #1A1B22;
+    border-bottom: 2px #1A1B22 solid;
+    padding-bottom: 23px;
+    
+    margin-left: 34px;
+    }
+    
+    @media (max-width: 414px) {
+        .header__item_current-about{
+            margin-left: 11px;
+            } 
+    }
