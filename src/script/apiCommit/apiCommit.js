@@ -1,7 +1,7 @@
 import { slider } from "../slider/slider.js";
-import { Commit } from "../commit/commit.js";
+import { CommitCardList } from "../CommitCardList/CommitCardList.js";
 
-const commitCards = new Commit();
+const commitCards = new CommitCardList();
 
 export class ApiCommit {
     constructor(url) {
@@ -10,11 +10,13 @@ export class ApiCommit {
     getInfoCommit() {
         fetch(this.url)
             .then(res => {
-                return res.json();
+                if (res.ok) {
+                    return res.json();
+                }
+                return Promise.reject(`Ошибка: ${res.status}`);
             })
             .then(json => {
                 if (json.length > 0) {
-
                     commitCards.commitCards(json);
                     slider();
                     return json;

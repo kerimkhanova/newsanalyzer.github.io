@@ -3,14 +3,14 @@ import "./style/analyzer.css";
 import { formatDate, months, transformateDate } from "./script/dates/dates.js";
 
 
-let subtitleResult = document.querySelector('.analytics-main__subtitle_result');
-let mainNumber = document.getElementById('newsOfWeek');
-let cards = JSON.parse(localStorage.getItem('cards'));
+const subtitleResult = document.querySelector('.analytics-main__subtitle_result');
+const mainNumber = document.getElementById('newsOfWeek');
+const cards = JSON.parse(localStorage.getItem('cards'));
 let summaryNumberOfWeek = 0;
-let summaryNumber = document.getElementById('summaryNumber');
-let tableMonth = document.querySelector('.analytics-result__table-month');
-let dates = [];
-let results = [];
+const summaryNumber = document.getElementById('summaryNumber');
+const tableMonth = document.querySelector('.analytics-result__table-month');
+const dates = [];
+const results = [];
 
 for (let i = 0; i < 7; i++) {
     dates.push(new Date());
@@ -34,7 +34,7 @@ dates.forEach(function (elem, i) {
     cards.forEach(function (card) {
         if (transformateDate(new Date(card.publishedAt)) == (transformateDate(elem))) {
             numOfReferences += card.title.split(localStorage.getItem('keyword')).length - 1;
-            let bigLetter = localStorage.getItem('keyword')[0].toUpperCase() + localStorage.getItem('keyword').slice(1);
+            const bigLetter = localStorage.getItem('keyword')[0].toUpperCase() + localStorage.getItem('keyword').slice(1);
             numOfReferences += card.title.split(bigLetter).length - 1;
 
         }

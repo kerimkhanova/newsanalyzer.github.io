@@ -2,7 +2,7 @@ import { transformateDate } from "../dates/dates.js";
 
 const commitsCarousel = document.querySelector('.commits__carousel');
 
-export class Commit {
+export class CommitCardList {
 
     commitCards(cards) {
         cards.forEach(function (el) {

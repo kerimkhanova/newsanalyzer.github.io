@@ -16,7 +16,7 @@ const keywordLocalStorage = localStorage.getItem('keyword');
 
 function newLocalStorage() {
     if (JSON.parse(cardsLocalStorage) !== null) {
-        searchInput.setAttribute('placeholder', keywordLocalStorage);
+        searchInput.value = keywordLocalStorage;
         newsCard.moreButtonListener();
         newsCard.readout(JSON.parse(cardsLocalStorage));
     }

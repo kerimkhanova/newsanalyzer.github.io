@@ -1,8 +1,8 @@
 const month = ["января", "февраля", "марта", "апреля", "мая", "июня", "июля", "августа", "сентября", "октября", "ноября", "декабря"];
 export const months = ["Январь", "Февраль", "Март", "Апрель", "Май", "Июнь", "Июль", "Август", "Сентябрь", "Октябрь", "Ноябрь", "Декабрь"];
 const days = ["вс", "пн", "вт", "ср", "чт", "пт", " сб"];
-let today = new Date();
-let seventhDay = new Date(today);
+const today = new Date();
+const seventhDay = new Date(today);
 
 
 export function formatDate(date) {
@@ -24,5 +24,5 @@ function transformateDate2(date) {
 };
 
 seventhDay.setDate(today.getDate() - 6)
-export let result0 = transformateDate2(today);
-export let result6 = transformateDate2(seventhDay);
+export const result0 = transformateDate2(today);
+export const result6 = transformateDate2(seventhDay);

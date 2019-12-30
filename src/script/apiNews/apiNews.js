@@ -1,6 +1,6 @@
-import { Card } from "../newsCard/newsCard.js";
+import { NewsCardList } from "../NewsCardList/NewsCardList.js";
 
-export const newsCard = new Card();
+export const newsCard = new NewsCardList();
 
 export class ApiNews {
     constructor(url) {
@@ -15,8 +15,10 @@ export class ApiNews {
         fetch(this.url)
 
             .then(response => {
-
-                return response.json()
+                if (response.ok) {
+                    return response.json();
+                }
+                return Promise.reject(`Ошибка: ${response.status}`);
             })
             .then(json => {
 

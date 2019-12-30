@@ -11,7 +11,7 @@ const notFoundTextMain = document.querySelector('.not-found__text-main');
 const notFoundText = document.querySelector('.not-found__text');
 
 // Создание карточки с новостями
-export class Card {
+export class NewsCardList {
 
     constructor() {
 
