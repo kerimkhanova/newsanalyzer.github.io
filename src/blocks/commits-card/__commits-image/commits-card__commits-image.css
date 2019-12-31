@@ -2,7 +2,7 @@
     background-repeat: no-repeat;
     background-size: cover;
     height: 64px;
-    width: 64px;
+    min-width: 64px;
 }
 
 @media (max-width: 768px) {
