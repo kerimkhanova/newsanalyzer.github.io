@@ -8,5 +8,4 @@ export function slider() {
         initialIndex: 0,
         groupCells: true,
     });
-    console.log(flkty)
 };
